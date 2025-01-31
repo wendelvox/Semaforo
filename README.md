@@ -1,9 +1,8 @@
 
-##Projeto: Semáforo com Temporizadores Periódicos - Raspberry Pi Pico
-Descrição
+Projeto: Semáforo com Temporizadores Periódicos - Raspberry Pi Pico
 Este projeto implementa um semáforo simples utilizando o microcontrolador Raspberry Pi Pico W e três LEDs (vermelho, amarelo e verde). Utilizando a função add_repeating_timer_ms() da biblioteca Pico SDK, o código gerencia os LEDs de forma a simular a troca de sinais de um semáforo. A cada 3 segundos, o semáforo alterna entre os LEDs (vermelho, verde e azul) de forma cíclica, com a adição de uma mensagem impressa no terminal a cada 1 segundo, indicando a execução da rotina principal.
 
-##Componentes Utilizados
+Componentes Utilizados
 Microcontrolador: Raspberry Pi Pico W
 LEDs: 3 LEDs RGB (vermelho, verde e azul)
 Resistores: 3 resistores de 330 Ω para os LEDs
@@ -27,4 +26,3 @@ LED Vermelho: Conectado ao pino 11 do Raspberry Pi Pico W.
 LED Verde: Conectado ao pino 12 do Raspberry Pi Pico W.
 LED Azul: Conectado ao pino 13 do Raspberry Pi Pico W.
 Resistores de 330 Ω: Conectados em série com cada LED.
-Código Fonte
